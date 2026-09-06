@@ -12,3 +12,8 @@ Enter a number = 4
 4 x 10 = 40
 """
 
+num1 = int(input())
+i = 1
+while i <= 10:
+    print(f"{num1} x {i} = {num1*i}")
+    i += 1
