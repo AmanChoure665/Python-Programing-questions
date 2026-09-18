@@ -4,3 +4,9 @@ fourth elements of this list with the number 0 using indexing.
 Print the updated list.
 """
 
+li = [10, 20, 30, 40, 50]
+
+li[1] = 0
+li[3] = 0
+
+print(li)
