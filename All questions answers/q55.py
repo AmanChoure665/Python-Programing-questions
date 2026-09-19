@@ -6,10 +6,14 @@ sum() for the total.
 
 
 
-def average(nums,n):
+def average(nums):
+    n = len(nums)
+    total = 0
     for i in nums:
         total += i
-    return avg = total/n
+    return total/n
 
-nums = [6, 5, 4, 2, 10, 91, 75, 49, 9]
-n = len(nums)
+nums = [6, -5, 4, 2, 10, 91, -75, 49, 9]
+avg = average(nums)
+
+print(f"Average is = {avg:.3f}")
