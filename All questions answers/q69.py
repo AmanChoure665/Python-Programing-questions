@@ -19,3 +19,15 @@ matrix = [
 ]
 
 
+def lower_triangle(matrix):
+    rows = len(matrix)
+    col = len(matrix[0])
+    for i in range(0,rows):
+        for j in range(0,col):
+            if i>=j:
+                print(matrix[i][j],end=" ")
+            else:
+                print("*",end=" ")
+        print()
+
+lower_triangle(matrix)
