@@ -20,7 +20,7 @@ matrix = [
 ]
 
 
-def lower_triangle(matrix):
+def anti_diagonal(matrix):
     rows = len(matrix)
     col = len(matrix[0])
     for i in range(0,rows):
@@ -31,4 +31,4 @@ def lower_triangle(matrix):
                 print("*",end=" ")
         print()
 
-lower_triangle(matrix)
+anti_diagonal(matrix)

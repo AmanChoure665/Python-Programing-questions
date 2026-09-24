@@ -21,7 +21,7 @@ matrix = [
 ]
 
 
-def lower_triangle(matrix):
+def diagonal(matrix):
     rows = len(matrix)
     col = len(matrix[0])
     for i in range(0,rows):
@@ -32,4 +32,4 @@ def lower_triangle(matrix):
                 print("*",end=" ")
         print()
 
-lower_triangle(matrix)
+diagonal(matrix)
