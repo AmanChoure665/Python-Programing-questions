@@ -14,3 +14,7 @@ students = {
     "Frank": 55,
 }
 
+for name, mark in students.items():
+    if mark > 70:
+        print(f"{name} = {mark}")  
+                

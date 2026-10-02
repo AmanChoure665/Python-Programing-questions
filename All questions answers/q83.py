@@ -12,4 +12,10 @@ marks = {
     "History": 65,
     "Computer": 95,
 }
+total = 0
+n = len(marks)
+for mark in marks.values():
+    total += mark
 
+avg = total/n
+print(f"Total Marks = {total} \nAvarage Marks = {avg}")

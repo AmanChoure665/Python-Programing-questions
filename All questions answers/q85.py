@@ -6,3 +6,13 @@ Write a Python function named merge_dicts(d1, d2) that accepts two dictionaries
 using the update() method. Ensure d1 remains unchanged.
 """
 
+def merge_dicts(d1,d2):
+    new_dict = {}
+    new_dict.update(d1)
+    new_dict.update(d2)
+    return new_dict
+
+d1 = {"a": 1,"b": 2,"c": 3}
+d2 = {"d": 4,"e": 5,"f": 6}
+
+print(merge_dicts(d1,d2))
