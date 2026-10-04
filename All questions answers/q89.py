@@ -13,3 +13,16 @@ subjects = {
     "Geography": 67,
     "Computer": 91,
 }
+
+ans = sorted(subjects.items(), key = lambda x:x[1],reverse=True)
+# count = 1
+# for sub,mark in ans:
+#     if count <= 3:
+#         print(f"{sub} = {mark}")
+#         count += 1
+#     else:
+#         break
+
+result = ans[:3]
+for sub, mark in result:
+    print(f"{sub} = {mark}")

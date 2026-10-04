@@ -13,3 +13,9 @@ students = {
     "Diana": [60, 74, 68],
     "Ethan": [55, 48, 62],
 }
+
+
+for name,marks in students.items():
+    total = sum(marks)
+    avg = total/len(marks)
+    print(f"{name}'s total marks = {total} and avarage marks = {avg:.2f}")
