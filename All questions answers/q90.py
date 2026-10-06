@@ -1,2 +1,11 @@
-my_set = {88,2,33,4,6,3,"AMAN",4,5,5,3,2,64,3,674,6}
-print(my_set)
+'''
+    Add to string
+'''
+
+text = "abcd" 
+text2 = "gsrf" 
+
+print(text+text2)
+
+
+print(text*5)
